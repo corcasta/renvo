@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "renvo"
+version = "0.0.1"
+authors = [
+  { name="Oscar Rene Cortina Castanon", email="corcasta@outlook.com" },
+]
+description = "A simple visual odometry engine based in python"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/corcasta/renvo"
+Issues = "https://github.com/corcasta/renvo/issues"

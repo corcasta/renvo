@@ -1,2 +1,5 @@
-__pycache__
+.vscode
 /datasets/kitti/*
+__pycache__
+renvo.egg-info
+build
